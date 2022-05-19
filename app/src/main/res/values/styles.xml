@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/jugu_button_style</item>
+    </style>
+
+    <style name="toolBar_jugu" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Customize your theme here. -->
+        <!--  <item name="android:background">@color/toolbar_BG</item> -->
+      </style>
+
+      <style name="toolBar_title_jugu" parent="Base.TextAppearance.AppCompat">
+          <!-- Customize your theme here. -->
+        <item name="android:textSize">@dimen/toolbar_title_size</item>
+        <item name="android:fontFamily">@font/autour_one</item>
+    </style>
+
+    <style name="menu_jugu" parent="RtlOverlay.Widget.AppCompat.PopupMenuItem">
+        <!-- Customize your theme here. -->
+        <item name="android:background">@color/toolbar_BG</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="jugu_button_style" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:shadowColor">#aa00dd00</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.4</item>
+        <item name="android:textSize">16dip</item>
+        <!-- <item name="android:textStyle">bold</item>-->
+         <item name="android:fontFamily">@font/audiowide</item>
+         <item name="android:background">@drawable/_button_selector_jugu</item>
+         <item name="android:focusable">true</item>
+         <item name="android:clickable">true</item>
+     </style>
+
+
+    <style name="jugu_tab_txt" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/audiowide</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+ </resources>

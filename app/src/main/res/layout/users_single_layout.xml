@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/_gradient_bg_black_transparent_90_from_top_border"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/user_single_name"
+        android:layout_width="150dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:alpha="0.8"
+        android:background="@drawable/text_glass_button"
+        android:clickable="true"
+        android:focusable="auto"
+        android:fontFamily="@font/black_ops_one"
+        android:paddingLeft="12dp"
+        android:paddingTop="2dp"
+        android:text="Display Name"
+        android:textAlignment="viewStart"
+        android:textColor="#ffaa00"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="@+id/user_single_status"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/user_single_image"
+        app:layout_constraintTop_toTopOf="@+id/user_single_image" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_single_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.8"
+        android:background="@drawable/glass_squar_inner_radius"
+        android:padding="3dp"
+        android:src="@drawable/default_avatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/user_single_status"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:alpha="0.9"
+        android:background="@drawable/_gradient_bg_gray__border_only"
+        android:fontFamily="@font/autour_one"
+        android:paddingLeft="5dp"
+        android:paddingRight="4dp"
+        android:paddingTop="2dp"
+        android:text="User default Status"
+        android:textColor="#aa00ff00"
+        android:textSize="8sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/user_single_image"
+        app:layout_constraintEnd_toStartOf="@+id/single_user_list"
+        app:layout_constraintStart_toEndOf="@+id/user_single_image"
+        app:layout_constraintTop_toBottomOf="@+id/user_single_name" />
+
+    <ImageView
+        android:id="@+id/single_user_list"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.8"
+        android:padding="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/user_single_status"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/user_single_status"
+        app:srcCompat="@drawable/details_32" />
+
+    <ImageView
+        android:id="@+id/user_single_medal"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:alpha="0.8"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/single_user_exp"
+        app:layout_constraintEnd_toStartOf="@+id/single_user_exp"
+        app:layout_constraintTop_toTopOf="@+id/single_user_exp"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/medal_32" />
+
+    <TextView
+        android:id="@+id/single_user_exp"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginBottom="8dp"
+        android:alpha="0.8"
+        android:fontFamily="@font/audiowide"
+        android:paddingRight="2dp"
+        android:paddingTop="4dp"
+        android:text="00 (exp)"
+        android:textAlignment="viewStart"
+        android:textColor="#ffff00"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/user_single_status"
+        app:layout_constraintEnd_toEndOf="@+id/single_user_list"
+        app:layout_constraintTop_toTopOf="@+id/user_single_name" />
+
+</android.support.constraint.ConstraintLayout>

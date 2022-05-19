@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_app_bar"
+    android:background="@color/toolbar_BG"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:titleTextAppearance="@style/toolBar_title_jugu"
+    android:theme="@style/toolBar_jugu">
+
+
+</android.support.v7.widget.Toolbar>

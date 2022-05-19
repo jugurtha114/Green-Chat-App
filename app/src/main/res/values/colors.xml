@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_app_bar_transparent">#2500ff00</color>
+
+
+    <color name="colorHint">#d800d600</color>
+    <color name="color_red">#ff4400</color>
+    <color name="color_blue">#0044ff</color>
+    <color name="color_orange">#ff8800</color>
+    <color name="colorText">#00ff00</color>
+    <color name="colorText_transparent">#aa00ff00</color>
+    <color name="colorText_input">#ff8800</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_green">#2500ff00</color>
+    <color name="transparent_green_input">#1300ff00</color>
+    <color name="color_link">#9900ff88</color>
+    <color name="colorBG">#55000000</color>
+    <color name="transparent_white">#20ffffff</color>
+    <color name="toolbar_BG">#66000000</color>
+    <color name="toolbar_title_BG">#00ff00</color>
+    <color name="toolbar_Subtitle_BG">#006000</color>
+
+    <color name="colorPrimary">#009800</color>
+    <color name="colorPrimaryDark">#006000</color>
+    <color name="colorAccent">#009a00</color>
+    <color name="textColorPrimary">#00ff00</color>
+    <color name="windowBackground">#00FFFFFF</color>
+    <color name="navigationBarColor">#5500ca00</color>
+    <color name="darkColor">#222222</color>
+</resources>
